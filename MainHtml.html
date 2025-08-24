@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Css.css">
+    <title>Naira Tahira - Portfolio</title>
+</head>
+<body>
+
+    <!-- Navbar -->
+    <header class="fade-in">
+        <nav class="navbar container">
+            <div class="logo">Naira Tahira's CV</div>
+            <ul class="nav-links">
+                <li><a href="#home" class="active">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero-section fade-in">
+        <div class="intro container">
+            <div class="text-section">
+                <h1>Hello, I'm <span>Naira Tahira</span>!</h1>
+                <p>A Diploma 3 Computer Engineering and Informatics student studying in Bandung State Polytechnic (POLBAN). I'm passionate about technology, design, and the ways of art!</p>
+                <button onclick="document.getElementById('contact').scrollIntoView({behavior:'smooth'});">Contact Me</button>
+            </div>
+            <div class="image-section">
+                <img src="Mypicture.jpg" alt="Profile Picture">
+            </div>
+        </div>
+    </section>
+
+    <!-- Profile & Video -->
+    <section class="profile-video-section container fade-in">
+        <div class="profile-box">
+            <h3>Personal Data</h3>
+            <div class="profile-info">
+                <div class="info-item"><span>Name:</span> Naira Tahira</div>
+                <div class="info-item"><span>Date of Birth:</span> 4th July 2007</div>
+                <div class="info-item"><span>Place of Birth:</span> Doha, Qatar</div>
+                <div class="info-item"><span>Email:</span> naira.tahira9a@gmail.com</div>
+                <div class="info-item"><span>Phone:</span> +62 813-9963-5165</div>
+                <div class="info-item"><span>Location:</span> Bandung, Indonesia</div>
+            </div>
+        </div>
+
+        <div class="video-box">
+            <h3>Introduction Video</h3>
+            <iframe width="560" height="315" 
+                src="https://www.youtube.com/embed/9z12YYVNmu4" 
+                title="YouTube video player" 
+                frameborder="0" 
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                allowfullscreen>
+            </iframe>
+        </div>
+    </section>
+
+    <!-- About -->
+    <section id="about" class="card container fade-in">
+        <h2>About Me</h2>
+        <div class="about-item">
+        <p>As mentioned previously, my name is Naira Tahira, a Computer Engineering and Informatics student at Bandung State Polytechnic. I am passionate about technology and creativity, and I constantly strive to combine the two in my projects and personal life.</p>
+        <p>⭒</p>
+        <p>Beyond academics, I love playing the guitar, often using music as a way to express myself and relax. I also find joy in drawing and creating art, a hobby I have cherished ever since childhood. Alongside visual arts, I am deeply passionate about writing in all sorts of forms starting from short stories and poems to reflective literature.</p>
+        <p>⭒</p>
+        <p>On the technical side, I am a fan of programming and always eager to explore new languages, frameworks, and problem-solving challenges. I have a strong interest in game development, with the dream of creating my own mini game someday that blends creativity, storytelling, and interactive design.</p>
+        <p>⭒</p>
+        <p>Altogether, I see myself as someone who values both logic and creativity, constantly learning, experimenting, and expressing myself through different forms of art, technology, and innovation. An open-minded student with the desire to learn more and open up to new beginnings and possibilities. </p>
+        </div>
+    </section>
+
+    <!-- Education -->
+    <section id="education" class="card container fade-in">
+        <h2>Education</h2>
+        <div class="education-list">
+            <div class="education-item">
+                <img src="PolbanLogo.png" alt="Polban Logo">
+                <div class="edu-text">
+                    <h3>Politeknik Negeri Bandung</h3>
+                    <p>Jurusan: Teknik Komputer dan Informatika</p>
+                    <p>Prodi: D3 - Teknik Informatika</p>
+                    <span>2024 - Present</span>
+                </div>
+            </div>
+
+            <div class="education-item">
+                <img src="Sma1Serang.png" alt="SMK Logo">
+                <div class="edu-text">
+                    <h3>SMA Negeri 1 Serang</h3>
+                    <p>MIPA</p>
+                    <span>2021 - 2024</span>
+                </div>
+            </div>
+
+            <div class="education-item">
+                <img src="cambridge.jpg" alt="SMP Logo">
+                <div class="edu-text">
+                    <h3>Cambridge International School</h3>
+                    <p>(Cambridge International School for Girls (CISG) changed into Cambridge International school CIS in the year 2018)</p>
+                    <span>2018 - 2021</span>
+                </div>
+            </div>
+
+            <div class="education-item">
+                <img src="cambridge.jpg" alt="SD Logo">
+                <div class="edu-text">
+                    <h3>Cambridge International School for Girls</h3>
+                    <p></p>
+                    <span>2012 - 2018</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills -->
+    <section id="skills" class="card container fade-in">
+        <h2>Skills</h2>
+        <div class="skills-list">
+            <div class="skill-item">
+                <img src="PL.jpg" alt="PL Logo">
+                <span>Programming Languages</span>
+            </div>
+            <div class="skill-item">
+                <img src="frogger.gif" alt="Game Logo">
+                <span>Game Design</span>
+            </div>
+            <div class="skill-item">
+                <img src="art.jpg" alt="Art Logo">
+                <span>Art</span>
+            </div>
+            <div class="skill-item">
+                <img src="Guitar.jpg" alt="Guitar Icon">
+                <span>Guitar</span>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Projects -->
+    <section id="projects" class="card container fade-in">
+        <h2>Projects</h2>
+        <div class="project-list">
+            <div class="project-card">
+                <h3>Portfolio Website</h3>
+                <p>A personal website (including this one), showcasing my bio, education, skills, and past projects.</p>
+            </div>
+            <div class="project-card">
+                <h3>Sales of Stationary (Penjualan ATK) Mini Program</h3>
+                <p>Between my teammate and I, my task was to develop the sales system by programming the admin features for managing stationery inventory and generating receipts. Additionally, I designed and implemented the mechanisms that handle both buyer and admin interactions within the system.</p>
+                <p><b>Video:</b> <a href="https://youtu.be/Mk_vn9hYR5M?feature=shared">Program Penjualan ATk</a></p>
+            </div>
+            <div class="project-card">
+                <h3>Retro Game: Assets and PowerUps</h3>
+                <p>Designed the assets and programmed the features regarding the in game PowerUps that would either benefit or give the user a disadvantage.</p>
+                <div class="Project-item">
+                    <img src="Project2.gif" alt="Assets">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="card container contact-card fade-in">
+        <div class="contact-info">
+        <h2>Contact Me</h2>
+        <p>Phone: +62 813 9963 5165</a></p>
+        <p>GitHub: <a href="https://github.com/NairaTahira" target="_blank">github.com/NairaTahira</a></p>
+        <p>Email: <a href="mailto:naira.tahira9a@gmail.com">naira.tahira9a@gmail.com</a></p>
+        <p>Instagram: <a href="https://www.instagram.com/nairatahira2021/" target="_blank">instagram.com/nairatahira2021</a></p>
+        </div>
+    </section>
+
+    <footer class="fade-in">
+        <p>© 2024 Naira Tahira - All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>
